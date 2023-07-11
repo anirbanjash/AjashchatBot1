@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Chatbot Website</title>
+
+    <style>
+        /* CSS styles for the website layout */
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(#2E3192, #1BFFFF);
+            /* Set the desired gradient colors */
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        
+        main {
+            margin: 20px;
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        /* CSS styles for the chatbot iframe */
+        
+        .chatbot-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80vh;
+        }
+        
+        .chatbot-iframe {
+            width: 100%;
+            max-width: 600px;
+            height: 100%;
+            border: none;
+        }
+    </style>
+    <link rel="icon" href="port1.ico">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome to AJashChatBot</h1>
+    </header>
+
+    <main>
+        <div class="chatbot-container">
+            <iframe class="chatbot-iframe" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/4290b7bd-c756-484e-8261-d52d2de4bf4f"></iframe>
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2023 Your Company Name
+    </footer>
+</body>
+
+</html>
